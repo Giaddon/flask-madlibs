@@ -43,3 +43,17 @@ story = Story(
     """Once upon a time in a long-ago {place}, there lived a
        large {adjective} {noun}. It loved to {verb} {plural_noun}."""
 )
+
+story_two = Story(
+    ["place", "noun", "verb", "adverb", "plural_noun"],
+    """Once upon a time in a far-away {place}, there was a
+       small {noun}. He/she hated to {adverb} {verb} {plural_noun}."""
+
+)
+
+story_three = Story(
+    ["season", "noun", "verb", "adjective", "plural_noun"],
+    """Once upon a time in a magical {season}, there was a
+       medium {adjective} {noun}. They liked to {verb} {plural_noun}."""
+
+)

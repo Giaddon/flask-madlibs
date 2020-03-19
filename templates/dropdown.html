@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+
+{% block title %} Form {% endblock %}
+{% block content %}
+    <h1>Let's play Madlibs!</h1>
+    <form action="/form">
+        <select name="dropdown-story">
+            <option value="one">Story one</option>
+            <option value="two">Story two</option>
+            <option value="three">Story three</option>
+        </select>
+        <button type= "submit">submit</button>
+    </form>
+{% endblock %}
